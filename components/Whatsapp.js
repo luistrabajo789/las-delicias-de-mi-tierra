@@ -20,7 +20,7 @@ export default function Whatsapp() {
   }, []);
 
   return (
-    <div ref={wht} className='fixed w-20 h-20 bottom-32 sm:bottom-60 right-2 sm:w-24 sm:h-24 lg:w-32 lg:h-32 sm:right-0'>
+    <div ref={wht} className='fixed w-20 h-20 bottom-28 sm:bottom-60 right-2 sm:w-24 sm:h-24 lg:w-32 lg:h-32 sm:right-0'>
         <Image src={whatsapp} alt=''/>
     </div>
   )

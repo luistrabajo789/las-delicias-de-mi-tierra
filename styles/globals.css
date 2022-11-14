@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Smithen\ Script";
+  src: url("../public/font/Smithen\ Script.ttf");
+  /* font-style: normal; */
+  font-weight: lighter;
+}
+
+.fuenteWinter {
+  font-family: "Smithen\ Script";
+}
+
+.color-primary {
+  color: #5a3327;
+}
+.color-secondary {
+  color: #26a684;
+}
+
+.bg-color-secondary {
+  background-color: #26a684;
+}
+
+a:hover {
+  border-bottom: solid 3px #26a684;
+ 
+}
+
+#header {
+  background-image: url("../public/Bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2 {
+  background-image: url("../public/Bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bubble {
+  margin: 5px;
+  padding: 20px 20px 0 20px;
+  position: relative;
+  border-radius: 30px;
+  width: auto;
+  background-color: #fff;
+}
+
+.bubble:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 30px;
+  border-top: 40px solid blue;
+  border-top-color: white;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+.boxProduct {
+  background: -webkit-linear-gradient(
+    to bottom,
+    #fff3ec,
+    transparent
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #fff3ec,
+    transparent
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hiddenUp{
+  display: none;
+}
+
+
+
+@media only screen and (min-width: 890px) {
+  #header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) url("../public/Bg1.png");
+    background-repeat: no-repeat;
+    background-size: contain !important;
+
+  }
+}
+
+
+@media only screen and (min-width: 1355px) {
+  #header {
+    background-image: url("../public/Bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover !important;
+  }
+}

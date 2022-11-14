@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import productImage from "public/Productopt.png";
+import productImage from "public/Product.png";
 import { useParallax } from 'react-scroll-parallax';
 
 export default function About() {

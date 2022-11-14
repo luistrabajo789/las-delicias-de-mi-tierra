@@ -1,7 +1,7 @@
 import React from "react";
-import chontaduro from "public/chontaduro.png";
-import piña from "public/pina.png";
-import chocolate from "public/chocolate.png";
+import chontaduro from "public/chontaduroopt.png";
+import piña from "public/pinaopt.png";
+import chocolate from "public/chocolateopt.png";
 import Image from "next/image";
 import { useParallax } from 'react-scroll-parallax';
 

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 
-import rec2 from "public/rec2.png";
-import rec from "public/rec.png";
+import rec2 from "public/rec2opt.png";
+import rec from "public/recopt.png";
 import bg3 from "public/bg3.png";
 import bg4 from "public/bg4.png";
 

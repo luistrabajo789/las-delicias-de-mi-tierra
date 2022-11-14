@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import { ParallaxProvider } from 'react-scroll-parallax'
+import 'animate.css';
 
 
 function MyApp({ Component, pageProps }) {

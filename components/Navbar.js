@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <div
       aria-label="Site Header"
-      className="fixed bg-white w-full z-50 top-0 shadow-md"
+      className="fixed bg-white w-full z-50 top-0 shadow-md inDown"
     >
       <div className=" max-w-screen-xl flex justify-center p-4">
         <div className="flex h-16 items-center justify-between">
